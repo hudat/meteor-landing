@@ -1,0 +1,15 @@
+<template name="layout">
+	<div class="ui page grid">
+		<header class="header">
+			{{> header}}
+		</header>
+		<main class="ui yield stackable page grid">
+      <div class="column">
+			  {{> yield}}
+			</div>
+		</main>
+		<footer class="footer">
+			{{> footer}}
+		</footer>
+	</div>
+</template>
