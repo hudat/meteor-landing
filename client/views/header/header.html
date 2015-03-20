@@ -1,11 +1,21 @@
 <template name="header">
-    <div class="sixteen wide column">
-        <h1 class="huge center aligned main ui header">Product Title</h1>
-            <div class="sub header">
-                Product sub-head
-        </div>
-      <div>
-        <img src="http://placehold.it/500x500">
-      </div>
+  <div class="ui stackable sixteen column grid header-wrapper">
+    <div class="eight wide column">
+      <h1>Product Title</h1>
+      <h2>Product Description goes here and should be about a sentence long</h2>
+      <img src="http://placehold.it/500x500" >
     </div>
+    <div class="eight wide column">
+      <div class="cta">
+        <h1>Sign up</h1>
+        <form class="" method="POST" action="/no-form" id="">
+   				<label for="name">Full Name</label>
+   				<input type="text" name="name" id="name" required="required">
+   				<label for="email">Email</label>
+   				<input type="email" name="email" id="email" required="required">
+   				<input type="submit" name="submit" id="submit" value="Submit">
+   			</form>
+    </div>
+  </div>
+</div>
 </template>
