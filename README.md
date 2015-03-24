@@ -1,4 +1,6 @@
 # meteor-boilerplate
+This repo is deprecated now. Visit [withpulp / landing-page-builder](https://github.com/withpulp/landing-page-builder) for the latest repo.
+
 
 Single page landing page using Meteor
 
